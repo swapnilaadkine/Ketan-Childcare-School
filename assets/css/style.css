@@ -893,6 +893,13 @@ overflow: hidden;
     .class-img{
         height: 300px;
     }
+    @media screen and (max-width:400px) {
+        .card-box .card .button{
+            display: block;
+            text-align: center;
+            padding-right: 30%;
+        }
+    }
    }
 /* media query ends */
 /* classes section style ends */
@@ -1054,6 +1061,19 @@ overflow: hidden;
         margin-left: -500px;
        }
    }
+   @media screen and (max-width:400px) {
+    .enroll-form  form .button{
+                
+                margin-left: -10px;
+                overflow: hidden;
+    }
+}
+
+
+
+
+
+
  
    .enroll-form textarea:focus{
     box-shadow: 1px 1px 2px 2px #EA512E;
